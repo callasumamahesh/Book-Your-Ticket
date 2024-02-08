@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto';
+}
+
+/* head */
+
+.MovieIcon{
+  width:2.1rem;
+  margin-right: 1.3rem;
+  cursor: pointer;
+}
+main{
+  background-color: orange;
+}
+.header{
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: orange;
+}
+.section1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:0rem 2rem;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LoginPage{
+  display: flex;
+  background-color: orange;
+  justify-content: space-evenly;
+  align-items: center;
+  height:75vh;
+}
+.ImageInLoginPage{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+.formItems{
+  height:350px;
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+}
+.form{
+  height:400px;
+  width:400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputField{
+  outline:none;
+  padding:10px;
+  margin:1rem 0rem;
+  font-size: 16px;
+  border:none;
+  border-bottom: 2px solid gray;
+}
+.passwordIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PrimaryButton{
+  width:200px;
+  padding: 10px;
+  background-color: rgb(24, 173, 173);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin:0.5rem 0rem;
+}
+
+.matterinloginpage{
+  margin:1rem 0rem;
+}
+.button{
+  margin-left:2rem;
+}
+
+/* signup Page */
+
+.SignUpPage{
+  background-color: orange;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.SignUpformItems{
+  background-color: white;
+  width:350px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.ImageInSignUpPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SignUpform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Movie */
+.MovieImage{
+  width:250px;
+  height:250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.totalMovieData{
+  margin:1rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.singleMovie{
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.singleMovieMainPage{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutMovie{
+  width:400px;
+  margin-left: 5%;
+}
+.TimingButtons{
+  display: flex;
+}
+.timingsButton{
+  padding:10px;
+  width:100px;
+  border-radius: 10px;
+  margin-right: 1rem;
+  margin:1rem 1rem;
+  cursor: pointer;
+}
+.seatButton{
+  width:100px;
+  padding:10px;
+  margin:1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.totalSeats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.YouSelectedSeat{
+  display : flex;
+  flex-wrap : wrap;
+
+}
+
+.seatBottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paymentSection{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+  margin-top: 2rem;
+}
+
+#moviepageImage{
+  width:400px;
+  height:350px;
+}
+.Alltheatres{
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+body{
+  background-color: orange;
+}
+.nearyou{
+  display: none;
+}
+
+
+
+
+
+@media (max-width : 600px){
+  .add{
+    width:100px;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  .totalMovieData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .singleMovieMainPage{
+    display: flex;
+    flex-direction: column;
+  }
+  .timingsButton{
+    width:80px;
+  }
+  .aboutMovie{
+    margin-bottom: 1rem;
+  }
+  .aboutMovie img{
+    width:300px;
+    height: 300px;
+  }
+  #moviepageImage{
+    width:300px;
+    height: 300px;
+  }
+  .seatButton{
+    margin:10px 0px;
+    width:2.5rem;
+  }
+  .paymentSection{
+    display: flex;
+    flex-direction: column;
+  }
+  .nearyou{
+    display: block;
+  }
+}
